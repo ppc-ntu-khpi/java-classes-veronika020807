@@ -1,0 +1,4 @@
+language = "java"
+run = "javac src/Customer.java src/CustomerTest.java && java -cp src CustomerTest"
+modules = ["java-graalvm22.3"]
+
